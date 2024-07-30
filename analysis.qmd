@@ -1,0 +1,25 @@
+---
+title: "Longevity After Election"
+author: "Anna Shao"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| warning: false
+library(tidyverse)
+library(primer.data)
+library(brms)
+library(tidybayes)
+library(gtsummary)
+```
+
+```{r}
+df <- governors
+
+# head(governors)
+# glimpse(governors)
+```
+
